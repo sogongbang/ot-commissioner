@@ -109,6 +109,6 @@ fi
 
 readonly CUR_DIR="$(dirname "$(realpath -s "$0")")"
 
-cd "${CUR_DIR}/.."
-git submodule update --init --recursive --depth=1
-cd -
+#cd "${CUR_DIR}/.."
+#git submodule update --init --recursive --depth=1
+#cd -
